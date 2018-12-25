@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <parameter name="password" value="AmUqebE"/>
+  <parameter name="userid" value="mngr161216"/>
+  <test name="Regression suite 1(failed)">
+    <parameter name="password" value="AmUqebE"/>
+    <parameter name="userid" value="mngr161216"/>
+    <classes>
+      <class name="basicFunctionality.LoginFunctionalityTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="LoginFunTest" invocation-numbers="0"/>
+          <include name="LoginFunTest_invalidData1"/>
+          <include name="setup"/>
+          <include name="LoginFunTest_invalidData"/>
+          <include name="LoginFunTest_invalidData2"/>
+        </methods>
+      </class> <!-- basicFunctionality.LoginFunctionalityTest -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
